@@ -1,0 +1,26 @@
+#+TITLE: OpenCV People Counter C++11 with Gtest
+
+Detects people and count them using a camera or video.
+
+* Requirements
+
+- OpenCV 4.3
+
+* Usage
+
+You can invoke People Counter with the ~PeopleCounter~ command following this instructions.
+
+
+#+begin_src bash
+Usage: ./PeopleCounter [-h][-t type][-i input_file][-o output_file]
+Options:
+        -h, --help
+                Show this help message
+        -t=TYPE
+                hog People detector
+                mog2 Background subtractor MOG2
+        -i=FILENAME
+                Input video filename
+        -o=FILENAME
+                Oupt video filename
+#+end_src
